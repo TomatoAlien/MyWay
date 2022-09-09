@@ -14,6 +14,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Button botonStart = (Button) findViewById(R.id.startBtn);
+        botonStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openpaginaPrincipal();
+            }
+        });
+
+    }
+    public void openpaginaPrincipal(){
+        Intent i2 = new Intent(this,paginaPrincipal.class);
+        startActivity(i2);
     }
     public void openSignUpPage(View view){
         Intent i = new Intent(this, SignUpPage.class);
