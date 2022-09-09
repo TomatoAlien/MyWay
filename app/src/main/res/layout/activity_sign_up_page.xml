@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="84dp"
-        android:background="#8D956AFD"
+        android:background="#956afd"
         android:backgroundTint="#956afd"
         android:text="@string/startBtn2"
         android:textSize="16sp"

@@ -18,13 +18,14 @@
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/nameTxt"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/passInput"
         android:layout_width="245dp"
-        android:layout_height="0dp"
+        android:layout_height="53dp"
         android:layout_marginBottom="90dp"
         android:background="#00dbd6"
         android:backgroundTint="#4D00DBD6"
@@ -59,8 +60,8 @@
 
     <EditText
         android:id="@+id/nameInput"
-        android:layout_width="245dp"
-        android:layout_height="0dp"
+        android:layout_width="247dp"
+        android:layout_height="53dp"
         android:layout_marginBottom="33dp"
         android:background="#00dbd6"
         android:backgroundTint="#6300DBD6"
