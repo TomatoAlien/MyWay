@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void openpaginaPrincipal(){
-        Intent i2 = new Intent(this,paginaPrincipal.class);
+        Intent i2 = new Intent(this,pagina_principal.class);
         startActivity(i2);
     }
     public void openSignUpPage(View view){

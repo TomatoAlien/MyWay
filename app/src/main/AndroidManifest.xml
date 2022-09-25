@@ -14,6 +14,9 @@
         android:theme="@style/Theme.MyWay"
         tools:targetApi="31">
         <activity
+            android:name=".pagina_principal"
+            android:exported="false" />
+        <activity
             android:name=".paginaPrincipal"
             android:exported="false" />
         <activity

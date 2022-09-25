@@ -23,7 +23,7 @@ public class SignUpPage extends AppCompatActivity {
         });
     }
     public void openpaginaPrincipalSU(){
-        Intent i2 = new Intent(this,paginaPrincipal.class);
+        Intent i2 = new Intent(this,pagina_principal.class);
         startActivity(i2);
     }
 }
