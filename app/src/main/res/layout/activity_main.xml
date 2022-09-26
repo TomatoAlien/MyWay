@@ -24,17 +24,20 @@
 
     <EditText
         android:id="@+id/passInput"
-        android:layout_width="245dp"
-        android:layout_height="53dp"
+        android:layout_width="287dp"
+        android:layout_height="61dp"
         android:layout_marginBottom="90dp"
-        android:background="#00dbd6"
-        android:backgroundTint="#4D00DBD6"
+        android:background="@drawable/custom_edit_text"
+        android:drawableStart="@drawable/pswd_icon"
         android:ems="10"
+        android:hint="   Contraseña"
         android:inputType="textPassword"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/startBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passTxt" />
+        app:layout_constraintTop_toBottomOf="@+id/passTxt"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/nameTxt"
@@ -42,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="9dp"
         android:text="@string/nameTxt"
-        android:textSize="16sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/nameInput"
         app:layout_constraintStart_toStartOf="@+id/nameInput"
         app:layout_constraintTop_toBottomOf="@+id/welcomeTxt" />
@@ -53,34 +56,36 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:text="@string/passwordTxt"
-        android:textSize="16sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/passInput"
         app:layout_constraintStart_toStartOf="@+id/passInput"
         app:layout_constraintTop_toBottomOf="@+id/nameInput" />
 
     <EditText
         android:id="@+id/nameInput"
-        android:layout_width="247dp"
-        android:layout_height="53dp"
+        android:layout_width="291dp"
+        android:layout_height="67dp"
         android:layout_marginBottom="33dp"
-        android:background="#00dbd6"
-        android:backgroundTint="#6300DBD6"
+        android:background="@drawable/custom_edit_text"
+        android:drawableStart="@drawable/account_icon"
         android:ems="10"
+        android:hint="  Nombre usuario"
         android:inputType="textPersonName"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/passTxt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameTxt" />
+        app:layout_constraintTop_toBottomOf="@+id/nameTxt"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/startBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp"
-        android:background="#8A956AFD"
-        android:backgroundTint="#956afd"
+        android:layout_width="123dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/custom_btn"
         android:text="@string/startBtn"
-        android:textSize="16sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/SignUpLabel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,13 +95,15 @@
         android:id="@+id/SignUpLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="100dp"
         android:onClick="openSignUpPage"
         android:text="@string/signupLabell"
-        android:textSize="16sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/startBtn"
-        app:layout_constraintTop_toBottomOf="@+id/startBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/startBtn"
+        tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

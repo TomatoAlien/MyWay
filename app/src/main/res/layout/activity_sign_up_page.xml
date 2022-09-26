@@ -50,7 +50,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameTxt2"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        android:drawableStart="@drawable/account_icon"
+        android:hint="   Nombre de ususario"/>
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -65,7 +67,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailTxt"
         app:layout_constraintVertical_bias="0.227"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        android:drawableStart="@drawable/email_icon"
+        android:hint="   Correo"/>
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -82,7 +86,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passTxt2"
         app:layout_constraintVertical_bias="0.094"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        android:drawableStart="@drawable/pswd_icon"
+        android:hint="   Contraseña"/>
 
     <TextView
         android:id="@+id/passTxt2"
