@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sistemas/Desktop/MyWay/app/src/main/res/drawable/custom_edit_text.xml" value="0.158" />
+        <entry key="..\:/Users/sistemas/Desktop/MyWay/app/src/main/res/drawable/custom_paisajecamping.xml" value="0.1305" />
+        <entry key="..\:/Users/sistemas/Desktop/MyWay/app/src/main/res/layout/activity_main.xml" value="0.255078125" />
         <entry key="..\:/Users/sistemas/Desktop/MyWay/app/src/main/res/layout/activity_pagina_principal.xml" value="0.22" />
+        <entry key="..\:/Users/sistemas/Desktop/MyWay/app/src/main/res/layout/activity_sign_up_page.xml" value="0.255078125" />
       </map>
     </option>
   </component>
